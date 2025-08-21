@@ -1,95 +1,9 @@
 
 
 
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-header {
-  display: flex;
-  align-items: center;
-}
-.website-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-.website-logo-studio {
-  color: #2e2f42;
-}
-.nav-header-menu {
-  display: flex;
-  gap: 40px;
-}
-.header-href-studio {
-  position: relative;
-  color: #404bbf;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  padding: 24px 0;
-  display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-href-studio::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-  content: "";
-}
-.header-href {
-  position: relative;
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  padding: 24px 0;
-  display: block;
-}
-.header-href:hover {
-  color: #404bbf;
-}
-.header-href:focus {
-  color: #404bbf;
-}
-.nav-header-address {
-  font-style: normal;
-}
-.nav-header-address-ul {
-  display: flex;
-  padding: 0;
-  gap: 40px;
-}
-.address-href {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-weight: 400;
-  padding: 24px 0;
-  display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address-href:hover {
-  color: #404bbf;
-}
-.address-href:focus {
-  color: #404bbf;
-}
+
+
+
 /* #endregion Header */
 
 /* #region Section 1 - Effective Solutions */
