@@ -1,21 +1,9 @@
 
 
 /* #region Section 3 - Our Team */
-.section_our_team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #f4f4fd;
-}
-.section_our_team .container {
-  width: 1158px;
-  margin: 0 auto;
-}
-.our-team-ul {
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  gap: 24px;
-}
+
+
+
 .our-team-ul-li {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
@@ -27,63 +15,13 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.section_our_team .h-second {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
-.section_our_team .h-third {
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-.section_our_team .p-section-two-three {
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin-bottom: 8px;
-}
-/* icons */
-.field-icon-our-team {
-  margin-left: 16px;
-  margin-right: 16px;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-.circle-icon-our-team {
-  width: 40px;
-  height: 40px;
-}
-.icon-link-sm {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-link-sm:hover {
-  background-color: #404bbf;
-}
-.icon-link-sm:focus {
-  background-color: #404bbf;
-}
-.icons-socialmedia-benefits {
-  fill: #f4f4fd;
-}
+
+
+
+
+
+
+
 /* #endregion Section 3 - Our Team */
 
 /* #region Section 4 - Our Portfolio */
