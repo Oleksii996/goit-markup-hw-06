@@ -271,14 +271,106 @@ button {
 
 /* #endregion */
 
-
 /* #region Section 1 - Effective Solutions */
+.section_effective_solutions {
+  max-height: 432px;
+  max-width: 320px;
+
+  margin: 0 auto; /* центрує блок по горизонталі */
+  background-color: #2e2f42;
+
+  padding-top: 72px;
+  padding-bottom: 72px;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg_people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.section_effective_solutions .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h-first {
+  max-width: 216px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+
+  margin-bottom: 72px;
+}
+
+.button_order_service {
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+
+  min-width: 169px;
+  height: 56px;
+
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button_order_service:hover {
+  background-color: #404bbf;
+}
+.button_order_service:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 760px) {
+  .section_effective_solutions {
+    max-height: 436px;
+    max-width: 768px;
+
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .h-first {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section_effective_solutions {
+    max-width: 1158px;
+    max-height: 600px;
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .h-first {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+}
 
 /* #endregion */
-
-
-
-
 
 /* #region Section 2 - Effective Solutions */
 
