@@ -602,8 +602,6 @@ button {
 .section_our_portfolio .container {
   width: 288px;
   margin: 0 auto;
-
-  background-color: #e7e9fc;
 }
 
 .section-four-h-second {
@@ -633,9 +631,22 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .picture-animation {
+  min-height: 280px;
+  min-width: 288px;
   position: relative;
   overflow: hidden;
+  
+  background-size: auto;
 }
+
+.picture-animation img {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .overlay-paragraph {
   position: absolute;
   top: 0;
@@ -670,11 +681,19 @@ button {
   margin-bottom: 8px;
 }
 
+/* Tablet */
+@media screen and (min-width: 760px) {
+  .section_our_portfolio .container {
+    width: 288px;
+    margin: 0 auto;
+  }
+}
 
-
-
-
-
+/* Desktop */
+@media screen and (min-width: 1158px) {
+  .section_our_team .container {
+  }
+}
 
 /* #endregion */
 
