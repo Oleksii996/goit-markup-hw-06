@@ -273,9 +273,8 @@ button {
 
 /* #region Section 1 - Effective Solutions */
 .section_effective_solutions {
-  max-height: 432px;
   max-width: 320px;
-
+  max-height: 432px;
   margin: 0 auto; /* центрує блок по горизонталі */
   background-color: #2e2f42;
 
@@ -291,11 +290,13 @@ button {
   background-position: center;
   background-size: cover;
 }
+
 .section_effective_solutions .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .h-first {
   max-width: 216px;
   font-weight: 700;
@@ -304,7 +305,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-
   margin-bottom: 72px;
 }
 
@@ -312,7 +312,6 @@ button {
   background-color: #4d5ae5;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -320,56 +319,41 @@ button {
   color: #ffffff;
   cursor: pointer;
   display: block;
-
   min-width: 169px;
   height: 56px;
-
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button_order_service:hover {
-  background-color: #404bbf;
-}
+.button_order_service:hover,
 .button_order_service:focus {
   background-color: #404bbf;
 }
 
+/* Tablet */
 @media screen and (min-width: 760px) {
   .section_effective_solutions {
-    max-height: 436px;
     max-width: 768px;
-
+    max-height: 436px;
     padding-top: 112px;
     padding-bottom: 112px;
   }
+
   .h-first {
     max-width: 496px;
-    font-weight: 700;
     font-size: 56px;
     line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
   }
 }
 
+/* Desktop */
 @media screen and (min-width: 1158px) {
   .section_effective_solutions {
     max-width: 1158px;
     max-height: 600px;
-
     padding-top: 188px;
     padding-bottom: 188px;
   }
-  .h-first {
-    max-width: 496px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-  }
 }
-
 /* #endregion */
 
 /* #region Section 2 - Benefits */
@@ -377,11 +361,11 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
 .section_benefits .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 288px;
   margin: 0 auto;
   padding: 0;
@@ -390,7 +374,7 @@ button {
 .benefits-ul {
   display: flex;
   flex-wrap: wrap;
-  padding: 0px;
+  padding: 0;
   gap: 72px;
 }
 
@@ -428,31 +412,70 @@ button {
   border-radius: 4px;
 }
 
+/* Tablet */
 @media screen and (min-width: 760px) {
   .section_benefits .container {
     min-width: 736px;
-    padding: 0;
-    background-color: #dfdfe4;
   }
+
   .benefits-ul {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    gap: 72px 24px; /* вертикальний та горизонтальний gap */
+    gap: 72px 24px; /* вертикальний і горизонтальний відступи */
   }
 
   .benefits-ul-li {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
     width: 356px;
-    background-color: #e4e9ba;
   }
+
   .section_benefits .h-third {
     text-align: start;
   }
 }
 
+/* Desktop */
+@media screen and (min-width: 1158px) {
+  .section_benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section_benefits .container {
+    width: 1158px;
+  }
+
+  .benefits-ul {
+    gap: 24px;
+  }
+
+  .benefits-ul-li {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .h-second {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+
+  .section_benefits .h-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #2e2f42;
+  }
+
+  .section_benefits .p-section-two-three {
+    color: #434455;
+  }
+
+  .field-icon-benefits {
+    display: flex;
+  }
+}
 /* #endregion */
 
 /* #region Section 3 - Effective Solutions */
