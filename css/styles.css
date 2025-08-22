@@ -391,7 +391,6 @@ button {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
 }
 
 .section_benefits .p-section-two-three {
@@ -492,7 +491,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #797b8f;
   padding: 0;
 }
 .our-team-ul {
@@ -501,7 +499,6 @@ button {
   justify-content: center;
   padding: 0px;
   gap: 72px;
-  background-color: #404bbf;
 }
 
 .section_our_team .h-second {
@@ -521,6 +518,10 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.our-team-ul-li-div {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .section_our_team .h-third {
   text-align: center;
   font-weight: 500;
@@ -571,6 +572,35 @@ button {
 }
 .icons-socialmedia-benefits {
   fill: #f4f4fd;
+}
+
+@media screen and (min-width: 760px) {
+  .section_our_team .container {
+    max-width: 760px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .our-team-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 64px 24px; /* вертикальний і горизонтальний відступи */
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
+  .section_our_team .container {
+    max-width: 1158px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 }
 
 /* #endregion */
