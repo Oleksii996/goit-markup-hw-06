@@ -928,9 +928,9 @@ button {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   padding-top: 72px;
-  padding-right: 24px;
+  padding-right: 16px;
   padding-bottom: 24px;
-  padding-left: 24px;
+  padding-left: 16px;
 }
 
 .kreuz-button {
@@ -1078,6 +1078,9 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
+  display: flex;
+  align-items: center;
 }
 
 .checkbox-span {
@@ -1094,6 +1097,9 @@ button {
   fill: transparent;
 
   margin-right: 8px;
+}
+.checkbox-span-text {
+  max-width: 231px;
 }
 
 .modal-form-icon-check {
