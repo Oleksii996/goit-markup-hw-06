@@ -355,10 +355,16 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/bg_people-office.jpg);
+    url(../images/Dark-bg-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-resolution: 192dpi) {
+  .box {
+    background-image: url(../images/Dark-bg@2x-min.jpg);
+  }
 }
 
 .section_effective_solutions .container {
