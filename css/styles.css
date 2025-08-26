@@ -715,14 +715,16 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 72px;
 
-  background-color: #796666;
+  min-width: 288px;
 }
 .webstudio-footer {
-  display: contents;
-  background-color: #d1d1d1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -730,18 +732,21 @@ button {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  max-width: 264px;
+}
+/* #region Social Media */
+.social-media-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .social-media-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  margin-bottom: 16px;
+  color: #f4f4fd;
 }
 
 .field-icon-footer {
@@ -769,6 +774,102 @@ button {
 
 .icons-socialmedia-footer {
   fill: #f4f4fd;
+}
+/* #endregion Social Media */
+
+.footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.email-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.form-input {
+  width: 288px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding-left: 16px;
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.form-input::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-button {
+  min-width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+
+  border: none;
+}
+
+.icons-subscribe-footer {
+  margin-left: 16px;
+  fill: #f4f4fd;
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) {
+  .page-footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .page-footer .container {
+    justify-content: start;
+    column-gap: 24px;
+    padding-left: 92px;
+  }
+
+  .webstudio-footer {
+    max-width: 264px;
+    align-items: start;
+  }
+  .social-media-footer {
+    max-width: 208px;
+    align-items: start;
+  }
+  .footer-subscribe {
+    align-items: start;
+    gap: 16px;
+  }
+  .email-form {
+    gap: 24px;
+  }
+  .form-input {
+    width: 264px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
 }
 
 /* #endregion */
