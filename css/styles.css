@@ -118,7 +118,7 @@ button {
   fill: #2f2f37;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .burger-btn {
     display: none;
   }
@@ -220,7 +220,7 @@ button {
 }
 
 /* #region  Mobile-Menu*/
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
@@ -400,7 +400,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .section_effective_solutions {
     max-width: 768px;
     max-height: 436px;
@@ -483,7 +483,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .section_benefits .container {
     min-width: 736px;
   }
@@ -645,7 +645,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .section_our_team .container {
     max-width: 760px;
   }
@@ -752,7 +752,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .section_our_portfolio .container {
     width: 768px;
   }
@@ -913,7 +913,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .page-footer {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -1216,7 +1216,7 @@ button {
 }
 
 /* Tablet */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .modal-fenster {
     width: 408px;
     min-height: 584px;
