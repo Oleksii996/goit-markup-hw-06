@@ -712,16 +712,63 @@ button {
   background-color: #2e2f42;
 }
 .page-footer .container {
-  max-width: 288px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   background-color: #796666;
 }
-.footer-logo {
+.webstudio-footer {
+  display: contents;
+  background-color: #d1d1d1;
 }
+
 .footer-logo .logo-part {
   color: #f4f4fd;
+}
+.p-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+
+.social-media-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.field-icon-footer {
+  display: flex;
+  gap: 16px;
+}
+.circle-icon-footer {
+  width: 40px;
+  height: 40px;
+}
+.icon-link-sm-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-link-sm-footer:hover,
+.icon-link-sm-footer:focus {
+  background-color: #31d0aa;
+}
+
+.icons-socialmedia-footer {
+  fill: #f4f4fd;
 }
 
 /* #endregion */
