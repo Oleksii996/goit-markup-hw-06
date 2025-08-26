@@ -847,7 +847,6 @@ button {
     column-gap: 24px;
     padding-left: 92px;
   }
-
   .webstudio-footer {
     max-width: 264px;
     align-items: start;
@@ -870,6 +869,18 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
+  .page-footer .container {
+    column-gap: 0px;
+    padding: 0;
+    max-width: 1128px;
+  }
+
+  .webstudio-footer {
+    margin-right: 120px;
+  }
+  .social-media-footer {
+    margin-right: 80px;
+  }
 }
 
 /* #endregion */
