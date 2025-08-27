@@ -692,11 +692,6 @@ button {
   padding-bottom: 96px;
 }
 
-.section_our_portfolio .container {
-  min-width: 288px;
-  margin: 0 auto;
-}
-
 .section-four-h-second {
   font-weight: 700;
   font-size: 36px;
@@ -782,7 +777,7 @@ button {
   .our-portfolio-ul {
     row-gap: 72px;
   }
-  .picture-animation {
+  .picture-animation { 
     min-height: 300px;
     min-width: 356px;
   }
@@ -794,7 +789,9 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-
+  .our-portfolio-ul {
+    row-gap: 48px;
+  }
   .section_our_portfolio .container {
     width: 1158px;
   }
@@ -975,8 +972,8 @@ button {
 @media screen and (min-width: 1158px) {
   .page-footer .container {
     column-gap: 0px;
-    padding: 0;
-    max-width: 1128px;
+    padding: 0 15px;
+    max-width: 1158px;
   }
   .webstudio-footer {
     margin-right: 120px;
