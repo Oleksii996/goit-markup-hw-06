@@ -355,7 +355,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/Dark-bg-min.jpg);
+    url(../images/bg_pictures/Dark-bg-mobile-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -367,7 +367,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg@2x-min.jpg);
+      url(../images/bg_pictures/Dark-bg-mobile@2x-min.jpg);
   }
 }
 
