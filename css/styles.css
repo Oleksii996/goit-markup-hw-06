@@ -521,7 +521,6 @@ button {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-
   .benefits-ul {
     gap: 72px 24px; /* вертикальний і горизонтальний відступи */
   }
@@ -581,15 +580,6 @@ button {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: #f4f4fd;
-}
-
-.section_our_team .container {
-  width: 288px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .our-team-ul {
@@ -686,6 +676,10 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
+  .section_our_team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .section_our_team .container {
     min-width: 1158px;
   }
@@ -796,6 +790,11 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
+  .section_our_portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .section_our_portfolio .container {
     width: 1158px;
   }
