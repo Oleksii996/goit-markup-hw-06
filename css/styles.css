@@ -567,7 +567,7 @@ button {
 }
 
 .section_our_team .container {
-  max-width: 288px;
+  width: 288px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -659,7 +659,7 @@ button {
 /* Tablet */
 @media screen and (min-width: 768px) {
   .section_our_team .container {
-    max-width: 760px;
+    min-width: 768px;
   }
 
   .our-team-ul {
@@ -670,7 +670,7 @@ button {
 /* Desktop */
 @media screen and (min-width: 1158px) {
   .section_our_team .container {
-    max-width: 1158px;
+    min-width: 1158px;
   }
 }
 /* #endregion */
@@ -682,7 +682,7 @@ button {
 }
 
 .section_our_portfolio .container {
-  width: 288px;
+  min-width: 288px;
   margin: 0 auto;
 }
 
