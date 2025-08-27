@@ -480,16 +480,6 @@ button {
   padding-bottom: 96px;
 }
 
-.section_benefits .container {
-  max-width: 288px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  margin: 0 auto;
-  padding: 0;
-}
-
 .benefits-ul {
   display: flex;
   flex-wrap: wrap;
@@ -523,7 +513,6 @@ button {
   display: none;
   justify-content: center;
   align-items: center;
-  margin-bottom: 8px;
   background-color: #f4f4fd;
   height: 112px;
   border: 1px solid #8e8f99;
@@ -532,9 +521,6 @@ button {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .section_benefits .container {
-    min-width: 736px;
-  }
 
   .benefits-ul {
     gap: 72px 24px; /* вертикальний і горизонтальний відступи */
@@ -555,11 +541,6 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-
-  .section_benefits .container {
-    min-width: 1158px;
-  }
-
   .benefits-ul {
     gap: 24px;
   }
@@ -582,7 +563,6 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
     color: #2e2f42;
   }
 
